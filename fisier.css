@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(Outfit-VariableFont_wght.ttf);
+}
+body {
+    min-height: 100vh;
+    font-family: "Outfit";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.tag__container__h1 {
+    line-height: 1.6rem;
+    text-align:center;
+    font-size: 1.3rem;
+    color: hsl(218, 44%, 22%);
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-weight: 700px;
+}   
+
+.tag__container__p {
+    line-height: 1.1rem;
+    text-align:center;
+    font-size: 0.9375rem;
+    color: hsl(220, 15%, 55%);
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    padding-bottom: 1.2rem;
+    font-weight: 400px;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    max-width:300px;
+
+}
+
+.card__container__img {
+    border-radius: 0.75rem;
+}
